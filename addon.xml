@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.openelec.settings"
+<addon id="service.cyelec.settings"
        name="@DISTRONAME@ Configuration"
        version="@ADDONVERSION@"
        provider-name="OpenELEC">

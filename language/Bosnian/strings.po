@@ -1,6 +1,6 @@
 # Kodi Media Center language file
 # Addon Name: @DISTRONAME@ Configuration
-# Addon id: service.openelec.settings
+# Addon id: service.cyelec.settings
 # Addon Provider: OpenELEC
 msgid ""
 msgstr ""

@@ -45,7 +45,7 @@ import defaults
 from xml.dom import minidom
 
 __author__ = 'OpenELEC'
-__scriptid__ = 'service.openelec.settings'
+__scriptid__ = 'service.cyelec.settings'
 __addon__ = xbmcaddon.Addon(id=__scriptid__)
 __cwd__ = __addon__.getAddonInfo('path')
 __oe__ = sys.modules[globals()['__name__']]
@@ -802,9 +802,9 @@ else:
 ############################################################################################
 
 try:
-    configFile = '%s/userdata/addon_data/service.openelec.settings/oe_settings.xml' % XBMC_USER_HOME
-    if not os.path.exists('%s/userdata/addon_data/service.openelec.settings' % XBMC_USER_HOME):
-        os.makedirs('%s/userdata/addon_data/service.openelec.settings' % XBMC_USER_HOME)
+    configFile = '%s/userdata/addon_data/service.cyelec.settings/oe_settings.xml' % XBMC_USER_HOME
+    if not os.path.exists('%s/userdata/addon_data/service.cyelec.settings' % XBMC_USER_HOME):
+        os.makedirs('%s/userdata/addon_data/service.cyelec.settings' % XBMC_USER_HOME)
     if not os.path.exists('%s/services' % CONFIG_CACHE):
         os.makedirs('%s/services' % CONFIG_CACHE)
 except:
